@@ -9,7 +9,7 @@ def multiplication(a: float, b: float) -> float:
 
 def division(a: float, b: float) -> float:
     if b == 0:
-        print("0으로 못 나눠요!")
+        print("0으로 못 나눠요! 오류나죠? ") #충돌부분
     return a / b
 
 num1 = float(input("첫 번째 수: "))
